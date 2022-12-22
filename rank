@@ -1,0 +1,26 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main() {
+   char rank;
+   cout << "Input your rank: ";
+   cin >> rank;
+
+   if (rank == 'S') {
+       cout << "You have recieved Super Ultra Rare Unit!!!"<< endl;
+    if(rank == 'A' || rank == 'S' ) {
+       cout << "You have recieved 5 gems."<< endl;
+    if(rank == 'B' || rank == 'A' || rank == 'S'){
+        cout << "You have recieved 1 gems." << endl;
+    if (rank == 'C' || rank == 'B' || rank == 'A' || rank == 'S'){
+        cout << "You have recieved 2000 coins." << endl;
+    if (rank == 'D'|| rank == 'C'|| rank == 'B' || rank == 'A'|| rank == 'S'){
+        cout << "You have recieved very KAK items." << endl;
+    }
+    }
+    }
+    }
+   }
+
+    return 0;
+}
